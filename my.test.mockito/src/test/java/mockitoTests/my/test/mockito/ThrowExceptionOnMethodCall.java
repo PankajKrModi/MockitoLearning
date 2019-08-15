@@ -1,11 +1,6 @@
 package mockitoTests.my.test.mockito;
 
-import org.hamcrest.core.IsEqual;
-import org.junit.Assert;
-
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThat;
-
 import java.util.ArrayList;
 
 import org.junit.Test;

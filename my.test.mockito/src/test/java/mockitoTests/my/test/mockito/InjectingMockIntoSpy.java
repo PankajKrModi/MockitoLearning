@@ -8,14 +8,13 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
-import org.mockito.MockitoAnnotations.Mock;
 /**
  * @author pankaj
  *Injecting mock into spy object is supported by constructor and not as usual
  */
 public class InjectingMockIntoSpy {
 
-	@Mock
+	@org.mockito.Mock
 	Map<String,String> map;
 	
 	MyDict mySpyDict;
